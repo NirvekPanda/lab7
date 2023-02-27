@@ -33,7 +33,7 @@ __Commit and Push to Github
 
 git add ListExamples.java
 
-git commit -m “updated”
+git commit -m “lab report 4”
 
 git push origin main
 
