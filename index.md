@@ -5,36 +5,30 @@ For the lab report this week, reproduce the task from the competition on your ow
 git clone git@github.com:NirvekPanda/lab7.git
 
 __Test Code__
-
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-
+```
 
 __Debug Code__    
 ```
 nano ListExample.java 
-    "CTRL _" (Jump to line)
-    type 42
+    CTRL + _
+    type 42 
     change 1 to 2 to update correct variables
+Ctrl + O
+Ctrl + X
 ```
-Ctrl O
-    
-Ctrl X
-
     
 __Test Code Again__
-
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-
+```
     
-__Commit and Push to Github
-
+__Commit and Push to Github__
+```
 git add ListExamples.java
-
 git commit -m “lab report 4”
-
 git push origin main
-
+```
