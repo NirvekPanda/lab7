@@ -10,7 +10,7 @@ ls
 cd lab7
 ls
 ```
-[!clone repo](images/image.png)
+[!clone repo](images/image1.png)
 
     
 __Test Code__
