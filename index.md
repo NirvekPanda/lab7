@@ -9,7 +9,7 @@ ls
 cd lab7
 ls
 ```
-[!clone repo](image1.png)
+![clone repo](image1.png)
 
     
 __Test Code__
@@ -17,7 +17,7 @@ __Test Code__
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-[!junit tests](image2.png)
+![junit tests](image2.png)
 
 
 __Debug Code__    
@@ -29,14 +29,14 @@ nano ListExamples.java
 Ctrl + O
 Ctrl + X
 ```
-[!debugging error](image3.png)
+![debugging error](image3.png)
     
 __Test Code Again__
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
-[!checking code again](image4.png)
+![checking code again](image4.png)
     
 __Commit and Push to Github__
 ```
