@@ -5,12 +5,11 @@ For the lab report this week, reproduce the task from the competition on your ow
 __Clone Repository__
 ```
 git clone git@github.com:NirvekPanda/lab7.git 
-<enter>
 ls
 cd lab7
 ls
 ```
-[!clone repo](images/image.png)
+[!clone repo](image1.png)
 
     
 __Test Code__
@@ -18,22 +17,26 @@ __Test Code__
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
+[!junit tests](image2.png)
+
 
 __Debug Code__    
 ```
-nano ListExample.java 
+nano ListExamples.java 
     CTRL + _
     type 42 
     change 1 to 2 to update correct variables
 Ctrl + O
 Ctrl + X
 ```
+[!debugging error](image3.png)
     
 __Test Code Again__
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
+[!checking code again](image4.png)
     
 __Commit and Push to Github__
 ```
@@ -41,3 +44,4 @@ git add ListExamples.java
 git commit -m “lab report 4”
 git push origin main
 ```
+[!sending files back to github](image5.png)
