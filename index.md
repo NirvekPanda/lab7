@@ -10,7 +10,7 @@ ls
 cd lab7
 ls
 ```
-[!clone repo](https://github.com/NirvekPanda/lab7/blob/main/images/image1.png)
+[!clone repo](image1.png)
 
     
 __Test Code__
