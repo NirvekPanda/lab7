@@ -66,7 +66,7 @@ git add ListExamples.java
     <enter>
 git commit -m “lab report 4”
     <enter>
-git push origin main
+git push origin
     <enter>
 ```
 ![sending files back to github](github.png)
