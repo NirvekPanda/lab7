@@ -55,9 +55,6 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
     <enter>
 ```
 ![checking code again](check.png)
-```
-tests come back working
-```
 
 
 __Commit and Push to Github__
